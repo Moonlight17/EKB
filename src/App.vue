@@ -14,11 +14,8 @@ export default {
   }
 }
 </script>
-
-<style>
-body{
-  background-color: #00688a;
-}
-#app {
-}
-</style>
+ <style scoped>
+ body{
+   font-family: Ubuntu, Arial, sans-serif;
+ }
+ </style>
