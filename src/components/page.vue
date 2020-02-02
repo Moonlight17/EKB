@@ -125,12 +125,22 @@
         </div>
       </div>
     </div>
+	<h1 class="title">Серия АВРМ</h1>
     <div id="char" class="container-fluid">
 		<div class="row">
 			<div class="col-md-3 col-sm-3 col-xs-12 char">
 				<img src="./img/item.png" alt="" srcset="">
 			</div>
 			<div class="col-md-9 col-sm-9 col-xs-12">
+				<p>
+					<b>Дополнительные опции и оснащение</b>
+				</p>
+				<ul>
+					<li>вариантное исполнение конца вала;</li>
+					<li>вариантное исполнение подшипниковых узлов;</li>
+					<li>исполнение в замену любого иностранного аналога;</li>
+					<li>заводская окраска в колер клиента.</li>
+				</ul>
 				<table class="props_table">
 					<tbody>
 					<tr class="char">
@@ -231,6 +241,7 @@ export default {
   -webkit-box-shadow: 0px 0px 5px 0px #777;
   -moz-box-shadow: 0px 0px 5px 0px #777;
   box-shadow: 0px 0px 5px 0px #777;
+	z-index: 1000;
 }
 #nav #nav_block {
   position: relative;
@@ -351,6 +362,31 @@ div#content_main img#main {
 }
 #char .props_table .char_value{
 	text-align: right;
+}
+h1.title{
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 6%;
+  margin-top: 10%;
+}
+#char ul{
+	display: table;
+	padding: 0;
+}
+#char ul li{
+	list-style-type: none;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 8px;
+}
+#char ul li:before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 12px;
+    width: 3px;
+    height: 3px;
+    background: #222;
 }
 /* 
     h3 {
