@@ -14,8 +14,3 @@ export default {
   }
 }
 </script>
- <style scoped>
- body{
-   font-family: Ubuntu, Arial, sans-serif;
- }
- </style>
