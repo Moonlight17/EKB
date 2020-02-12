@@ -2,6 +2,6 @@ module.exports = {
   chainWebpack: config => {
     config.module.rules.delete('eslint')
   },
-  publicPath: '',
-  outputDir: 'site'
+  publicPath: './',
+  outputDir: 'site',
 }

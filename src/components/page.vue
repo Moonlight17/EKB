@@ -12,8 +12,8 @@
 					</div>
 					<div class="info_block" id="info_block">
 						<div id="base">	
-							<div class="header-right">
-								<p class="phones call_phone_1"><span id="call_phone"><a href="tel:+7 (982) 633-89-87"> +7 (982) 633-89-87</a></span> <span id="call_phone" style="margin-right:0;"><a href="tel:+7 (343) 286-38-42">+7 (343) 286-38-42</a></span></p>
+							<div class="header-right container-fluid">
+								<p class="phones call_phone_1 row"><span class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="call_phone"><a href="tel:+7 (982) 633-89-87"> +7 (982) 633-89-87</a></span><br><span class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="call_phone" style="margin-right:0;"><a href="tel:+7 (343) 286-38-42">+7 (343) 286-38-42</a></span></p>
 								<p class="address">     
 								<p class="mailtop"><a target="_blank" href="https://www.eldvigspb.com/">www.eldvigspb.com</a><a href="mailto:AVRM@eldvigspd.com"><span>E-mail: AVRM@eldvigspd.com </span></a><a target="_blank" href="https://nrgprom.ru/">www.nrgprom.ru</a></p>
 							</div>
@@ -150,7 +150,12 @@
 					<img src="./img/item.png"/>
           <h6 class="name">АВРМ-132</h6>
 				</div>
-				<div class="col-md-9 col-sm-9 col-xs-12">
+				<div class="col-md-9 col-sm-9 col-xs-12 home">
+					<a class="chertez_href" :href="`${publicPath}/static/АВРМ132М2.pdf`" download>
+						<div id="chertiz">
+							<span>Чертеж</span>
+						</div>
+					</a>
 					<p>
 						<b>Дополнительные опции и оснащение</b>
 					</p>
@@ -239,7 +244,12 @@
 					<img src="./img/item.png"/>
           <h6 class="name">АВРМ-160</h6>
 				</div>
-				<div class="col-md-9 col-sm-9 col-xs-12">
+				<div class="col-md-9 col-sm-9 col-xs-12 home">
+					<a class="chertez_href" :href="`${publicPath}/static/ЭДВ.03.00.000 ГЧ - Двигатель асинхронный взрывозащищенный АВРМ160.pdf`" download>
+						<div id="chertiz">
+							<span>Чертеж</span>
+						</div>
+					</a>
 					<p>
 						<b>Дополнительные опции и оснащение</b>
 					</p>
@@ -328,7 +338,12 @@
 					<img src="./img/item.png"/>
           <h6 class="name">АВРМ-200</h6>
 				</div>
-				<div class="col-md-9 col-sm-9 col-xs-12">
+				<div class="col-md-9 col-sm-9 col-xs-12 home">
+					<a class="chertez_href" :href="`${publicPath}/static/ЭДВ.07.00.000 ГЧ - Двигатель асинхронный взрывозащищенный АВРМ200L2.pdf`" download>
+						<div id="chertiz">
+							<span>Чертеж</span>
+						</div>
+					</a>
 					<p>
 						<b>Дополнительные опции и оснащение</b>
 					</p>
@@ -410,14 +425,19 @@
 				</div>
 			</div>
 		</div>
-    <!-- 225 -->
+    <!-- 280 -->
 		<div id="char" class="container-fluid">
 			<div class="row">
 				<div class="col-md-3 col-sm-3 col-xs-12 char">
 					<img src="./img/item.png"/>
-          <h6 class="name">АВРМ-225</h6>
+          <h6 class="name">АВРМ-280</h6>
 				</div>
-				<div class="col-md-9 col-sm-9 col-xs-12">
+				<div class="col-md-9 col-sm-9 col-xs-12 home">
+					<div id="chertiz">
+						<p>Чертежи</p>
+						<a class="chertez_href" :href="`${publicPath}/static/ЭДВ.06.00.000 ГЧ - Электродвигатель асинхронный взрывозащищенный АВРМ280S4.pdf`" download><div class="modif" id="280S"><span>S - версия</span></div></a>
+						<a class="chertez_href" :href="`${publicPath}/static/АВРМ280.42L.00.000 ГЧ - Электродвигатель асинхронный  взрывозащищеный  АВРМ280L4.pdf`" download><div class="modif" id="280L"><span>L - версия</span></div></a>
+					</div>
 					<p>
 						<b>Дополнительные опции и оснащение</b>
 					</p>
@@ -472,18 +492,10 @@
 							</tr>
 							<tr class="char">
 								<td class="char_name">
-									<span>Частота вращения, об/мин</span>
-								</td>
-								<td class="char_value">
-									<span>3000</span>
-								</td>
-							</tr>
-							<tr class="char">
-								<td class="char_name">
 									<span>Длина станины, мм</span>
 								</td>
 								<td class="char_value">
-									<span>M</span>
+									<span>S / L</span>
 								</td>
 							</tr>
 							<tr class="char">
@@ -507,6 +519,11 @@ export default {
 	name: "page",
 	props: {
 		msg: String
+	},
+	data () {
+	return {
+	publicPath: '/'
+	}
 	}
 };
 </script>
@@ -546,17 +563,19 @@ div.info_block{
 div.info_block .header-right .phones {
     position: relative;
     font-weight: 800;
-    font-size: 20px;
+    font-size: 1.2em;
     margin-bottom: 10px;
     text-align: left;
-	width: 68%;
-	margin: 0 auto;
+    width: 36%;
+    margin: 0 auto;
+    min-width: 13em;
 }
 
 div.info_block .phones.call_phone_1 span#call_phone{
     position: relative;
     padding-right: 7px;
     padding-left: 30px;
+	margin: 0 auto;
 }
 div.info_block .phones.call_phone_1 span#call_phone:before{
 	content: '';
@@ -597,7 +616,7 @@ div.info_block .mailtop a {
 div.logo_blocks{
 	display: inline-block;
 	width: 21%;
-	padding: 4px;
+	padding: 9px;
 }
 div#logo_right_block{
 	text-align: right;
@@ -741,6 +760,31 @@ h1.title {
 	width: 3px;
 	height: 3px;
 	background: #222;
+}
+.home{
+	position: relative;
+}
+.home #chertiz{
+	position: absolute;
+	right: 13%;
+	top: 0;
+	padding: 15px;
+	margin: 0 auto;
+	border: 3px solid black;
+    text-align: center;
+	color: black;
+	font-weight: bold;
+}
+.home #chertiz .modif{
+	/* display: inline; */
+	padding: 0.4em;
+}
+.home #chertiz .modif span{
+	padding: 1em;
+}
+.home #chertiz .chertez_href{
+	color: black;
+	font-weight: bold;
 }
 /* 
     h3 {
