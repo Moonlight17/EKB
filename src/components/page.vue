@@ -43,8 +43,8 @@
 				<h1>Серия АВРМ</h1>
 			</div>
 			<div class="series row">
-				<ul class="slides">
-					<li class="col-md-3 col-sm-6 col-xs-6" style="float: left; display: block;">
+				<ul class="slides row-cols-5 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 row-cols-xl-5">
+					<li class="col" style="float: left; display: block;">
 						<div class="item" id="bx_3218110189_155" style="opacity: 1; height: 403px;">
 							<div class="inner-wrap">
 								<div class="image shine">
@@ -60,7 +60,7 @@
 							</div>
 						</div>
 					</li>
-					<li class="col-md-3 col-sm-6 col-xs-6" style="float: left; display: block;">
+					<li class="col" style="float: left; display: block;">
 						<div class="item" id="bx_3218110189_155" style="opacity: 1; height: 403px;">
 							<div class="inner-wrap">
 								<div class="image shine">
@@ -76,7 +76,7 @@
 							</div>
 						</div>
 					</li>
-					<li class="col-md-3 col-sm-6 col-xs-6" style="float: left; display: block;">
+					<li class="col" style="float: left; display: block;">
 						<div class="item" id="bx_3218110189_155" style="opacity: 1; height: 403px;">
 							<div class="inner-wrap">
 								<div class="image shine">
@@ -92,7 +92,7 @@
 							</div>
 						</div>
 					</li>
-					<li class="col-md-3 col-sm-6 col-xs-6" style="float: left; display: block;">
+					<li class="col" style="float: left; display: block;">
 						<div class="item" id="bx_3218110189_155" style="opacity: 1; height: 403px;">
 							<div class="inner-wrap">
 								<div class="image shine">
@@ -101,7 +101,23 @@
 								<div class="text">
 									<div class="cont" style="height: 52px;">
 										<div class="title" style="height: 22px;">
-											<span id="name">АВРМ-280</span>
+											<span id="name">АВРМ-280 (110кВ)</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="col" style="float: left; display: block;">
+						<div class="item" id="bx_3218110189_155" style="opacity: 1; height: 403px;">
+							<div class="inner-wrap">
+								<div class="image shine">
+									<img src="./img/280(160).jpeg" alt="АВРМ-280" title="АВРМ-280" />
+								</div>
+								<div class="text">
+									<div class="cont" style="height: 52px;">
+										<div class="title" style="height: 22px;">
+											<span id="name">АВРМ-280 (160кВ)</span>
 										</div>
 									</div>
 								</div>
@@ -425,26 +441,112 @@
 				</div>
 			</div>
 		</div>
-    <!-- 280 -->
+    <!-- 280 - 110 -->
 		<div id="char" class="container-fluid">
 			<div class="row">
 				<div class="col-md-3 col-sm-3 col-xs-12 char">
-					<img src="./img/item.png"/>
-          <h6 class="name">АВРМ-280</h6>
+					<img src="./img/280(160).jpeg"/>
+          			<h6 class="name">АВРМ-280 (110кВ)</h6>
 				</div>
 				<div class="col-md-9 col-sm-9 col-xs-12 home">
-					<div id="chertiz">
-						<p>Чертежи</p>
-						<a class="chertez_href" :href="`${publicPath}/static/ЭДВ.06.00.000 ГЧ - Электродвигатель асинхронный взрывозащищенный АВРМ280S4.pdf`" download><div class="modif" id="280S"><span>S - версия</span></div></a>
-						<a class="chertez_href" :href="`${publicPath}/static/АВРМ280.42L.00.000 ГЧ - Электродвигатель асинхронный  взрывозащищеный  АВРМ280L4.pdf`" download><div class="modif" id="280L"><span>L - версия</span></div></a>
-					</div>
+					<a class="chertez_href" :href="`${publicPath}/static/АВРМ280 110.pdf`" download>
+						<div id="chertiz">
+							<span>Чертеж</span>
+						</div>
+					</a>
 					<p>
 						<b>Дополнительные опции и оснащение</b>
 					</p>
 					<ul>
 						<li>вариантное исполнение конца вала;</li>
 						<li>вариантное исполнение подшипниковых узлов;</li>
-            <li>вариантное монтажное исполнение: фланцевое, лаповое, комбинированное;</li>
+            			<li>вариантное монтажное исполнение: фланцевое, лаповое, комбинированное;</li>
+						<li>исполнение в замену любого иностранного аналога;</li>
+						<li>заводская окраска в колер клиента.</li>
+					</ul>
+					<table class="props_table">
+						<tbody>
+							<tr class="char">
+								<td class="char_name">
+									<span>Класс энергоэффективности</span>
+								</td>
+								<td class="char_value">
+									<span>IE1&nbsp;/ IE2</span>
+								</td>
+							</tr>
+							<tr class="char">
+								<td class="char_name">
+									<span>Уровень и вид взрывозащиты</span>
+								</td>
+								<td class="char_value">
+									<span>PB Exd(ia)l</span>
+								</td>
+							</tr>
+							<tr class="char">
+								<td class="char_name">
+									<span>Климатическое исполнение</span>
+								</td>
+								<td class="char_value">
+									<span>У5&nbsp;/ Т5</span>
+								</td>
+							</tr>
+							<tr class="char">
+								<td class="char_name">
+									<span>Степень защиты оболочки</span>
+								</td>
+								<td class="char_value">
+									<span>IP54</span>
+								</td>
+							</tr>
+							<tr class="char">
+								<td class="char_name">
+									<span>Средний срок службы</span>
+								</td>
+								<td class="char_value">
+									<span>15 лет</span>
+								</td>
+							</tr>
+							<tr class="char">
+								<td class="char_name">
+									<span>Длина станины, мм</span>
+								</td>
+								<td class="char_value">
+									<span>S / L</span>
+								</td>
+							</tr>
+							<tr class="char">
+								<td class="char_name">
+									<span>Место применения</span>
+								</td>
+								<td class="char_value">
+									<span>Угольные и соляные шахты</span>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<!-- 280 - 160 -->
+		<div id="char" class="container-fluid">
+			<div class="row">
+				<div class="col-md-3 col-sm-3 col-xs-12 char">
+					<img src="./img/280(160).jpeg"/>
+          			<h6 class="name">АВРМ-280 (160кВ)</h6>
+				</div>
+				<div class="col-md-9 col-sm-9 col-xs-12 home">
+					<a class="chertez_href" :href="`${publicPath}/static/АВРМ280 160.pdf`" download>
+						<div id="chertiz">
+							<span>Чертеж</span>
+						</div>
+					</a>
+					<p>
+						<b>Дополнительные опции и оснащение</b>
+					</p>
+					<ul>
+						<li>вариантное исполнение конца вала;</li>
+						<li>вариантное исполнение подшипниковых узлов;</li>
+            			<li>вариантное монтажное исполнение: фланцевое, лаповое, комбинированное;</li>
 						<li>исполнение в замену любого иностранного аналога;</li>
 						<li>заводская окраска в колер клиента.</li>
 					</ul>
