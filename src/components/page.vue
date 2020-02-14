@@ -13,9 +13,13 @@
 					<div class="info_block" id="info_block">
 						<div id="base">	
 							<div class="header-right container-fluid">
-								<p class="phones call_phone_1 row"><span class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="call_phone"><a href="tel:+7 (982) 633-89-87"> +7 (982) 633-89-87</a></span><br><span class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="call_phone" style="margin-right:0;"><a href="tel:+7 (343) 286-38-42">+7 (343) 286-38-42</a></span></p>
-								<p class="address">     
-								<p class="mailtop"><a target="_blank" href="https://www.eldvigspb.com/">www.eldvigspb.com</a><a href="mailto:AVRM@eldvigspd.com"><span>E-mail: AVRM@eldvigspd.com </span></a><a target="_blank" href="https://nrgprom.ru/">www.nrgprom.ru</a></p>
+								<p class="phones call_phone_1 row"><span class="col-lg-6 col-md-12 col-sm-12 col-xs-12" id="call_phone"><a href="tel:+7 (982) 633-89-87"> +7 (982) 633-89-87</a></span><span class="col-lg-6 col-md-12 col-sm-12 col-xs-12" id="call_phone" style="margin-right:0;"><a href="tel:+7 (343) 286-38-42">+7 (343) 286-38-42</a></span></p>
+								<p class="address"></p>
+								<p class="mailtop">
+									<a id="mail_left" align="left" target="_blank" href="https://www.eldvigspb.com/">www.eldvigspb.com</a>
+									<a href="mailto:AVRM@eldvigspd.com"><span>E-mail: AVRM@eldvigspd.com </span></a>
+									<a id="mail_right" target="_blank" href="https://nrgprom.ru/">www.nrgprom.ru</a>
+								</p>
 							</div>
 							<!-- <p>
 								Моб.:<a href="tel:+79826338987"> +7 (982) 633-89-87</a><br>
@@ -40,20 +44,20 @@
 		</div>
 		<div id="item" class="container-fluid">
 			<div class="series row">
-				<h1>Серия АВРМ</h1>
+				<h1 class="title">Серия АВРМ</h1>
 			</div>
 			<div class="series row">
 				<ul class="slides row-cols-5 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 row-cols-xl-5">
 					<li class="col" style="float: left; display: block;">
 						<div class="item" id="bx_3218110189_155" style="opacity: 1; height: 403px;">
-							<div class="inner-wrap">
+							<div v-scroll-to="{ el: '.en_132', offset: -200 }" class="inner-wrap">
 								<div class="image shine">
 									<img src="./img/132.png" alt="АВРМ-132" title="АВРМ-132" />
 								</div>
 								<div class="text">
 									<div class="cont" style="height: 52px;">
 										<div class="title" style="height: 22px;">
-											<span id="name">АВРМ-132</span>
+											<span id="name">АВРМ-132 (15КВт)</span>
 										</div>
 									</div>
 								</div>
@@ -62,14 +66,14 @@
 					</li>
 					<li class="col" style="float: left; display: block;">
 						<div class="item" id="bx_3218110189_155" style="opacity: 1; height: 403px;">
-							<div class="inner-wrap">
+							<div v-scroll-to="{ el: '.en_160', offset: -200 }" class="inner-wrap">
 								<div class="image shine">
 									<img src="./img/160.png" alt="АВРМ-160" title="АВРМ-160" />
 								</div>
 								<div class="text">
 									<div class="cont" style="height: 52px;">
 										<div class="title" style="height: 22px;">
-											<span id="name">АВРМ-160</span>
+											<span id="name">АВРМ-160 (25КВт)</span>
 										</div>
 									</div>
 								</div>
@@ -78,14 +82,14 @@
 					</li>
 					<li class="col" style="float: left; display: block;">
 						<div class="item" id="bx_3218110189_155" style="opacity: 1; height: 403px;">
-							<div class="inner-wrap">
+							<div v-scroll-to="{ el: '.en_200', offset: -150 }" class="inner-wrap">
 								<div class="image shine">
 									<img src="./img/200.png" alt="АВРМ-200" title="АВРМ-200" />
 								</div>
 								<div class="text">
 									<div class="cont" style="height: 52px;">
 										<div class="title" style="height: 22px;">
-											<span id="name">АВРМ-200</span>
+											<span id="name">АВРМ-200 (50КВт)</span>
 										</div>
 									</div>
 								</div>
@@ -94,14 +98,14 @@
 					</li>
 					<li class="col" style="float: left; display: block;">
 						<div class="item" id="bx_3218110189_155" style="opacity: 1; height: 403px;">
-							<div class="inner-wrap">
+							<div v-scroll-to="{ el: '.en_280_110', offset: -200 }" class="inner-wrap">
 								<div class="image shine">
 									<img src="./img/280(110).png" alt="АВРМ-280" title="АВРМ-280" />
 								</div>
 								<div class="text">
 									<div class="cont" style="height: 52px;">
 										<div class="title" style="height: 22px;">
-											<span id="name">АВРМ-280 (110кВ)</span>
+											<span id="name">АВРМ-280 (110КВт)</span>
 										</div>
 									</div>
 								</div>
@@ -110,14 +114,14 @@
 					</li>
 					<li class="col" style="float: left; display: block;">
 						<div class="item" id="bx_3218110189_155" style="opacity: 1; height: 403px;">
-							<div class="inner-wrap">
+							<div v-scroll-to="{ el: '.en_280_160', offset: -200 }" class="inner-wrap">
 								<div class="image shine">
 									<img src="./img/280(160).png" alt="АВРМ-280" title="АВРМ-280" />
 								</div>
 								<div class="text">
 									<div class="cont" style="height: 52px;">
 										<div class="title" style="height: 22px;">
-											<span id="name">АВРМ-280 (160кВ)</span>
+											<span id="name">АВРМ-280 (160КВт)</span>
 										</div>
 									</div>
 								</div>
@@ -160,11 +164,16 @@
 		</div>
 		<h1 class="title">Серия АВРМ</h1>
     <!-- 132 -->
-		<div id="char" class="container-fluid">
+		<div id="char" class="container-fluid en_132">
 			<div class="row">
 				<div class="col-md-3 col-sm-3 col-xs-12 char">
 					<img src="./img/132.png"/>
-          <h6 class="name">АВРМ-132</h6>
+					<h6 class="name">АВРМ-132 (15КВт)</h6>
+					<a class="chertez_href" :href="`${publicPath}/static/Сертификат соответствия.pdf`" download>
+						<div id="sertif">
+							<span>Сертификат</span>
+						</div>
+					</a>
 				</div>
 				<div class="col-md-9 col-sm-9 col-xs-12 home">
 					<a class="chertez_href" :href="`${publicPath}/static/АВРМ132М2.pdf`" download>
@@ -254,11 +263,16 @@
 			</div>
 		</div>
     <!-- 160 -->
-		<div id="char" class="container-fluid">
+		<div id="char" class="container-fluid en_160">
 			<div class="row">
 				<div class="col-md-3 col-sm-3 col-xs-12 char">
 					<img src="./img/160.png"/>
-          <h6 class="name">АВРМ-160</h6>
+					<h6 class="name">АВРМ-160 (25КВт)</h6>
+					<a class="chertez_href" :href="`${publicPath}/static/Сертификат соответствия.pdf`" download>
+						<div id="sertif">
+							<span>Сертификат</span>
+						</div>
+					</a>
 				</div>
 				<div class="col-md-9 col-sm-9 col-xs-12 home">
 					<a class="chertez_href" :href="`${publicPath}/static/ЭДВ.03.00.000 ГЧ - Двигатель асинхронный взрывозащищенный АВРМ160.pdf`" download>
@@ -348,11 +362,16 @@
 			</div>
 		</div>
     <!-- 200 -->
-		<div id="char" class="container-fluid">
+		<div id="char" class="container-fluid en_200">
 			<div class="row">
 				<div class="col-md-3 col-sm-3 col-xs-12 char">
 					<img src="./img/200.png"/>
-          <h6 class="name">АВРМ-200</h6>
+					<h6 class="name">АВРМ-200 (50КВт)</h6>
+					<a class="chertez_href" :href="`${publicPath}/static/Сертификат соответствия.pdf`" download>
+						<div id="sertif">
+							<span>Сертификат</span>
+						</div>
+					</a>
 				</div>
 				<div class="col-md-9 col-sm-9 col-xs-12 home">
 					<a class="chertez_href" :href="`${publicPath}/static/ЭДВ.07.00.000 ГЧ - Двигатель асинхронный взрывозащищенный АВРМ200L2.pdf`" download>
@@ -442,11 +461,16 @@
 			</div>
 		</div>
     <!-- 280 - 110 -->
-		<div id="char" class="container-fluid">
+		<div id="char" class="container-fluid en_280_110">
 			<div class="row">
 				<div class="col-md-3 col-sm-3 col-xs-12 char">
 					<img src="./img/280(110).png"/>
           			<h6 class="name">АВРМ-280 (110кВ)</h6>
+					<a class="chertez_href" :href="`${publicPath}/static/Сертификат соответствия.pdf`" download>
+						<div id="sertif">
+							<span>Сертификат</span>
+						</div>
+					</a>
 				</div>
 				<div class="col-md-9 col-sm-9 col-xs-12 home">
 					<a class="chertez_href" :href="`${publicPath}/static/АВРМ280 110.pdf`" download>
@@ -508,6 +532,14 @@
 							</tr>
 							<tr class="char">
 								<td class="char_name">
+									<span>Частота вращения, об/мин</span>
+								</td>
+								<td class="char_value">
+									<span>1500</span>
+								</td>
+							</tr>
+							<tr class="char">
+								<td class="char_name">
 									<span>Длина станины, мм</span>
 								</td>
 								<td class="char_value">
@@ -528,11 +560,16 @@
 			</div>
 		</div>
 	<!-- 280 - 160 -->
-		<div id="char" class="container-fluid">
+		<div id="char" class="container-fluid en_280_160">
 			<div class="row">
 				<div class="col-md-3 col-sm-3 col-xs-12 char">
 					<img src="./img/280(160).png"/>
           			<h6 class="name">АВРМ-280 (160кВ)</h6>
+					<a class="chertez_href" :href="`${publicPath}/static/Сертификат соответствия.pdf`" download>
+						<div id="sertif">
+							<span>Сертификат</span>
+						</div>
+					</a>
 				</div>
 				<div class="col-md-9 col-sm-9 col-xs-12 home">
 					<a class="chertez_href" :href="`${publicPath}/static/АВРМ280 160.pdf`" download>
@@ -594,6 +631,14 @@
 							</tr>
 							<tr class="char">
 								<td class="char_name">
+									<span>Частота вращения, об/мин</span>
+								</td>
+								<td class="char_value">
+									<span>1500</span>
+								</td>
+							</tr>
+							<tr class="char">
+								<td class="char_name">
 									<span>Длина станины, мм</span>
 								</td>
 								<td class="char_value">
@@ -620,18 +665,15 @@
 			<h1 class="title">НАШИ НАГРАДЫ</h1><br>
 			<div class="col-md-10 col-sm-10 col-xs-12 paper">
 				<div id="img">
-					<img class="paper_img" :src="`${publicPath}/static/Doc1.png`"><br>
-					<img class="paper_img" :src="`${publicPath}/static/Doc2.png`"><br>
-					<img class="paper_img" :src="`${publicPath}/static/Doc3.png`"><br>
-					<img class="paper_img" :src="`${publicPath}/static/Doc4.jpg`"><br>
-					<img class="paper_img" :src="`${publicPath}/static/Doc5.jpg`"><br>
-					<img class="paper_img" :src="`${publicPath}/static/Сертификат дистрибьютора  ЭнергоПром (2).jpg`">
-				</div>
-				<div id="iframe">
-					<iframe class="paper_iframe" :src="`${publicPath}/static/АШС.pdf`" frameborder="0"></iframe>
-					<iframe class="paper_iframe" :src="`${publicPath}/static/Глазовский завод.pdf`" frameborder="0"></iframe>
-					<iframe class="paper_iframe" :src="`${publicPath}/static/Горный цех.pdf`" frameborder="0"></iframe>
-					<iframe class="paper_iframe" :src="`${publicPath}/static/Сертификат соответствия.pdf`" frameborder="0"></iframe>
+					<img class="paper_img" :src="`${publicPath}/static/Doc1.png`">
+					<img class="paper_img" :src="`${publicPath}/static/Doc2.png`">
+					<img class="paper_img" :src="`${publicPath}/static/Doc3.png`">
+					<img class="paper_img" :src="`${publicPath}/static/Doc4.png`">
+					<img class="paper_img" :src="`${publicPath}/static/Doc5.png`">
+					<img class="paper_img" :src="`${publicPath}/static/Сертификат дистрибьютора  ЭнергоПром (2).png`">
+					<img class="paper_img" :src="`${publicPath}/static/АШС.png`">
+					<img class="paper_img" :src="`${publicPath}/static/Глазовский завод.png`">
+					<img class="paper_img" :src="`${publicPath}/static/Горный цех.png`">
 				</div>
 			</div>
 		</div>
@@ -693,7 +735,7 @@ div.info_block .header-right .phones {
     font-size: 1.2em;
     margin-bottom: 10px;
     text-align: left;
-    width: 36%;
+    width: 53%;
     margin: 0 auto;
     min-width: 13em;
 }
@@ -719,19 +761,33 @@ div.info_block .header-right .phones p {
     margin-right: 10px;
 }
 div.info_block .mailtop a {
+	width: 50%;
     color: rgb(2, 94, 124) !important;
 	font-size: 15px;
     font-weight: 600;
 	margin: 0;
-	padding-right: 4%;
-	padding-left: 4%;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	/* padding-right: 4%; */
+	/* padding-left: 4%; */
+}
+div.info_block .mailtop a#mail_left{
+	/* padding-left: 0%; */
+	text-align: left;
+	width: 25%;
+}
+div.info_block .mailtop a#mail_right{
+	/* padding-right: 0%; */
+	text-align: right;
+	width: 25%;
 }
 .info_block div#base{
 	text-align: center;
 	padding: 3px;
-	margin: 0 auto;
+	margin: 0;
 	padding: 0;
-    width: 79%;
+    /* width: 79%; */
 }
 .info_block p{
 	margin-bottom: 0;
@@ -756,7 +812,7 @@ img.logo{
 	width: 50%;
 }
 img#logo_left {
-	width: 60%;
+	width: 81%;
 }
 img#logo_right {
 	width: 100%;
@@ -783,7 +839,7 @@ div#content_main img#main {
 }
 #item .series:first-child {
 	margin: 0 auto;
-	margin-top: 20%;
+    /* margin-top: 14%; */
 }
 #item .series h1,
 #item .series .text {
@@ -814,9 +870,9 @@ div#content_main img#main {
 #char{
   margin-bottom: 12%;
 }
-#char:last-child{
-  margin-bottom: 5%;
-  padding-bottom: 3%;
+#char.en_280_160{
+	margin-bottom: 0%;
+	padding-bottom: 0%;
 }
 #char .name{
   font-weight: 700;
@@ -867,7 +923,7 @@ h1.title {
 	margin: 0 auto;
 	text-align: center;
 	margin-bottom: 6%;
-	margin-top: 10%;
+	margin-top: 8% !important;
 }
 #char ul {
 	display: table;
@@ -895,12 +951,34 @@ h1.title {
 	position: absolute;
 	right: 13%;
 	top: 0;
-	padding: 15px;
+	padding: 15px 35px;
 	margin: 0 auto;
-	border: 3px solid black;
+	border: 2px solid black;
     text-align: center;
 	color: black;
 	font-weight: bold;
+	transition-duration: 1s;
+}
+.home #chertiz:hover{
+	border: 2px solid #025e7c;
+	color: #025e7c;
+}
+.char #sertif span{
+	display: block;
+}
+.char #sertif{
+	width: 51%;
+	padding: 15px 35px;
+	margin: 0 auto;
+	border: 2px solid black;
+    text-align: center;
+	color: black;
+	font-weight: bold;
+	transition-duration: 1s;
+}
+.char #sertif:hover{
+	border: 2px solid #025e7c;
+	color: #025e7c;
 }
 .home #chertiz .modif{
 	/* display: inline; */
@@ -921,24 +999,24 @@ h1.title {
 
 }
 #diploma .paper #img{
-	width: 50%;
-	margin: 0 auto;
-}
-#diploma .paper #iframe{
-	width: 50%;
-	margin: 0 auto;
-}
-#diploma .paper .paper_img{
 	width: 100%;
 	margin: 0 auto;
+	text-align: center;
+}
+#diploma .paper img.paper_img{
+	object-fit: fill;
+	/* height: 100%; */
+	width: 20%;
+	margin: 13px;
+	/* margin: 0 auto; */
 	margin-bottom: 17px;
+	border: 2px solid #025e7c;
+	transition-duration: 0.5s;
 }
-#diploma .paper .paper_iframe{
-	width: 100%;
-	height: 80vh;
-	min-height: 600px;
-	margin: 0 auto;
-	margin-bottom: 27px;
+#diploma .paper img.paper_img:hover{
+	transform: scale(3);
+	width: 20%;
+	margin: 0 auto;	
 }
 /* #diploma .paper .paper_iframe body{
 	-ms-zoom: 2;
@@ -949,9 +1027,6 @@ h1.title {
 	-webkit-transform: scale(2);
 	-webkit-transform-origin: 0 0;
 } */
-#diploma .paper img.paper_img:nth-child(2n+1){
-	border: 22px solid black;
-}
 /* 
     h3 {
         margin: 40px 0 0;
