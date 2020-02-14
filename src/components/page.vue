@@ -48,7 +48,7 @@
 						<div class="item" id="bx_3218110189_155" style="opacity: 1; height: 403px;">
 							<div class="inner-wrap">
 								<div class="image shine">
-									<img src="./img/item.png" alt="АВРМ-132" title="АВРМ-132" />
+									<img src="./img/132.png" alt="АВРМ-132" title="АВРМ-132" />
 								</div>
 								<div class="text">
 									<div class="cont" style="height: 52px;">
@@ -64,7 +64,7 @@
 						<div class="item" id="bx_3218110189_155" style="opacity: 1; height: 403px;">
 							<div class="inner-wrap">
 								<div class="image shine">
-									<img src="./img/item.png" alt="АВРМ-160" title="АВРМ-160" />
+									<img src="./img/160.png" alt="АВРМ-160" title="АВРМ-160" />
 								</div>
 								<div class="text">
 									<div class="cont" style="height: 52px;">
@@ -80,7 +80,7 @@
 						<div class="item" id="bx_3218110189_155" style="opacity: 1; height: 403px;">
 							<div class="inner-wrap">
 								<div class="image shine">
-									<img src="./img/item.png" alt="АВРМ-200" title="АВРМ-200" />
+									<img src="./img/200.png" alt="АВРМ-200" title="АВРМ-200" />
 								</div>
 								<div class="text">
 									<div class="cont" style="height: 52px;">
@@ -96,7 +96,7 @@
 						<div class="item" id="bx_3218110189_155" style="opacity: 1; height: 403px;">
 							<div class="inner-wrap">
 								<div class="image shine">
-									<img src="./img/item.png" alt="АВРМ-280" title="АВРМ-280" />
+									<img src="./img/280(110).png" alt="АВРМ-280" title="АВРМ-280" />
 								</div>
 								<div class="text">
 									<div class="cont" style="height: 52px;">
@@ -112,7 +112,7 @@
 						<div class="item" id="bx_3218110189_155" style="opacity: 1; height: 403px;">
 							<div class="inner-wrap">
 								<div class="image shine">
-									<img src="./img/280(160).jpeg" alt="АВРМ-280" title="АВРМ-280" />
+									<img src="./img/280(160).png" alt="АВРМ-280" title="АВРМ-280" />
 								</div>
 								<div class="text">
 									<div class="cont" style="height: 52px;">
@@ -163,7 +163,7 @@
 		<div id="char" class="container-fluid">
 			<div class="row">
 				<div class="col-md-3 col-sm-3 col-xs-12 char">
-					<img src="./img/item.png"/>
+					<img src="./img/132.png"/>
           <h6 class="name">АВРМ-132</h6>
 				</div>
 				<div class="col-md-9 col-sm-9 col-xs-12 home">
@@ -257,7 +257,7 @@
 		<div id="char" class="container-fluid">
 			<div class="row">
 				<div class="col-md-3 col-sm-3 col-xs-12 char">
-					<img src="./img/item.png"/>
+					<img src="./img/160.png"/>
           <h6 class="name">АВРМ-160</h6>
 				</div>
 				<div class="col-md-9 col-sm-9 col-xs-12 home">
@@ -351,7 +351,7 @@
 		<div id="char" class="container-fluid">
 			<div class="row">
 				<div class="col-md-3 col-sm-3 col-xs-12 char">
-					<img src="./img/item.png"/>
+					<img src="./img/200.png"/>
           <h6 class="name">АВРМ-200</h6>
 				</div>
 				<div class="col-md-9 col-sm-9 col-xs-12 home">
@@ -445,7 +445,7 @@
 		<div id="char" class="container-fluid">
 			<div class="row">
 				<div class="col-md-3 col-sm-3 col-xs-12 char">
-					<img src="./img/280(160).jpeg"/>
+					<img src="./img/280(110).png"/>
           			<h6 class="name">АВРМ-280 (110кВ)</h6>
 				</div>
 				<div class="col-md-9 col-sm-9 col-xs-12 home">
@@ -527,11 +527,11 @@
 				</div>
 			</div>
 		</div>
-		<!-- 280 - 160 -->
+	<!-- 280 - 160 -->
 		<div id="char" class="container-fluid">
 			<div class="row">
 				<div class="col-md-3 col-sm-3 col-xs-12 char">
-					<img src="./img/280(160).jpeg"/>
+					<img src="./img/280(160).png"/>
           			<h6 class="name">АВРМ-280 (160кВ)</h6>
 				</div>
 				<div class="col-md-9 col-sm-9 col-xs-12 home">
@@ -613,7 +613,31 @@
 				</div>
 			</div>
 		</div>
+	
+
+	<div id="diploma" class="container-fluid">
+		<div class="row">
+			<h1 class="title">НАШИ НАГРАДЫ</h1><br>
+			<div class="col-md-10 col-sm-10 col-xs-12 paper">
+				<div id="img">
+					<img class="paper_img" :src="`${publicPath}/static/Doc1.png`"><br>
+					<img class="paper_img" :src="`${publicPath}/static/Doc2.png`"><br>
+					<img class="paper_img" :src="`${publicPath}/static/Doc3.png`"><br>
+					<img class="paper_img" :src="`${publicPath}/static/Doc4.jpg`"><br>
+					<img class="paper_img" :src="`${publicPath}/static/Doc5.jpg`"><br>
+					<img class="paper_img" :src="`${publicPath}/static/Сертификат дистрибьютора  ЭнергоПром (2).jpg`">
+				</div>
+				<div id="iframe">
+					<iframe class="paper_iframe" :src="`${publicPath}/static/АШС.pdf`" frameborder="0"></iframe>
+					<iframe class="paper_iframe" :src="`${publicPath}/static/Глазовский завод.pdf`" frameborder="0"></iframe>
+					<iframe class="paper_iframe" :src="`${publicPath}/static/Горный цех.pdf`" frameborder="0"></iframe>
+					<iframe class="paper_iframe" :src="`${publicPath}/static/Сертификат соответствия.pdf`" frameborder="0"></iframe>
+				</div>
+			</div>
+		</div>
 	</div>
+
+</div>
 </template>
 
 <script>
@@ -624,7 +648,7 @@ export default {
 	},
 	data () {
 	return {
-	publicPath: '/'
+	publicPath: './'
 	}
 	}
 };
@@ -637,6 +661,7 @@ export default {
 	background-color: white;
 	margin: 0 auto;
 	padding-top: 10px;
+	margin-bottom: 30px;
 }
 #nav {
 	position: fixed;
@@ -887,6 +912,45 @@ h1.title {
 .home #chertiz .chertez_href{
 	color: black;
 	font-weight: bold;
+}
+/* #diploma{
+	margin: 0 auto;
+} */
+#diploma .paper{
+	margin: 0 auto;
+
+}
+#diploma .paper #img{
+	width: 50%;
+	margin: 0 auto;
+}
+#diploma .paper #iframe{
+	width: 50%;
+	margin: 0 auto;
+}
+#diploma .paper .paper_img{
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 17px;
+}
+#diploma .paper .paper_iframe{
+	width: 100%;
+	height: 80vh;
+	min-height: 600px;
+	margin: 0 auto;
+	margin-bottom: 27px;
+}
+/* #diploma .paper .paper_iframe body{
+	-ms-zoom: 2;
+	-moz-transform: scale(2);
+	-moz-transform-origin: 0 0;
+	-o-transform: scale(2);
+	-o-transform-origin: 0 0;
+	-webkit-transform: scale(2);
+	-webkit-transform-origin: 0 0;
+} */
+#diploma .paper img.paper_img:nth-child(2n+1){
+	border: 22px solid black;
 }
 /* 
     h3 {
