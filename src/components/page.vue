@@ -50,7 +50,7 @@
 				<ul class="slides row-cols-5 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 row-cols-xl-5">
 					<li class="col" style="float: left; display: block;">
 						<div class="item" id="bx_3218110189_155" style="opacity: 1; height: 403px;">
-							<div v-scroll-to="{ el: '.en_132', offset: -200 }" class="inner-wrap">
+							<div v-scroll-to="{ el: '.en_132', offset: -200 }" class="inner-wrap cursor">
 								<div class="image shine">
 									<img src="./img/132.png" alt="АВРМ-132" title="АВРМ-132" />
 								</div>
@@ -66,7 +66,7 @@
 					</li>
 					<li class="col" style="float: left; display: block;">
 						<div class="item" id="bx_3218110189_155" style="opacity: 1; height: 403px;">
-							<div v-scroll-to="{ el: '.en_160', offset: -200 }" class="inner-wrap">
+							<div v-scroll-to="{ el: '.en_160', offset: -200 }" class="inner-wrap cursor">
 								<div class="image shine">
 									<img src="./img/160.png" alt="АВРМ-160" title="АВРМ-160" />
 								</div>
@@ -82,7 +82,7 @@
 					</li>
 					<li class="col" style="float: left; display: block;">
 						<div class="item" id="bx_3218110189_155" style="opacity: 1; height: 403px;">
-							<div v-scroll-to="{ el: '.en_200', offset: -150 }" class="inner-wrap">
+							<div v-scroll-to="{ el: '.en_200', offset: -150 }" class="inner-wrap cursor">
 								<div class="image shine">
 									<img src="./img/200.png" alt="АВРМ-200" title="АВРМ-200" />
 								</div>
@@ -98,7 +98,7 @@
 					</li>
 					<li class="col" style="float: left; display: block;">
 						<div class="item" id="bx_3218110189_155" style="opacity: 1; height: 403px;">
-							<div v-scroll-to="{ el: '.en_280_110', offset: -200 }" class="inner-wrap">
+							<div v-scroll-to="{ el: '.en_280_110', offset: -200 }" class="inner-wrap cursor">
 								<div class="image shine">
 									<img src="./img/280(110).png" alt="АВРМ-280" title="АВРМ-280" />
 								</div>
@@ -114,7 +114,7 @@
 					</li>
 					<li class="col" style="float: left; display: block;">
 						<div class="item" id="bx_3218110189_155" style="opacity: 1; height: 403px;">
-							<div v-scroll-to="{ el: '.en_280_160', offset: -200 }" class="inner-wrap">
+							<div v-scroll-to="{ el: '.en_280_160', offset: -200 }" class="inner-wrap cursor">
 								<div class="image shine">
 									<img src="./img/280(160).png" alt="АВРМ-280" title="АВРМ-280" />
 								</div>
@@ -1017,6 +1017,16 @@ h1.title {
 	transform: scale(3);
 	width: 20%;
 	margin: 0 auto;	
+}
+.cursor{
+	cursor: default;
+	transition-duration: 0.3s;
+	border: 1px solid rgba(2, 94, 124,0);
+	border-radius: 5px;
+}
+.cursor:hover{
+	cursor: pointer;
+	border: 1px solid rgba(2, 94, 124,1);
 }
 /* #diploma .paper .paper_iframe body{
 	-ms-zoom: 2;
