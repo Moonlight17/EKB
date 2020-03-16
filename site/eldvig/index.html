@@ -1,0 +1,35 @@
+Html Webpack Plugin:
+<pre>
+  Error: Parse Error: <meta name="viewport" content="width=1200, initial-scale=1" shrink-to-fit=no"> 
+      <meta name="description" content="Завод «Электродвигатель Санкт-Петербург» уже несколько десятилетий является одним из лидеров среди производителей взрывозащищенных электродвигателей в России.">  
+      <link rel="icon" href="favicon.ico"> 
+      <title>Eldvig</title> 
+    <link href="css/app.5da39426.css" rel="preload" as="style"><link href="css/chunk-vendors.f6f30965.css" rel="preload" as="style"><link href="js/app.9d4140fa.js" rel="preload" as="script"><link href  ="js/chunk-vendors.ebe2453d.js" rel="preload" as="script"><link href="css/chunk-vendors.f6f30965.css" rel="stylesheet"><link href="css/app.5da39426.css" rel="stylesheet"></head> 
+    <body> 
+      <style> 
+      body{ 
+        background-color:rgb(2, 94, 124); 
+        font-family: Ubuntu, Arial, sans-serif; 
+      } 
+      </style> 
+      <noscript> 
+        <strong>We're sorry but zavod doesn't work properly without JavaScript enabled. Please enable it to continue.</strong> 
+      </noscript> 
+      <div id="app"></div> 
+      <!-- built files will be auto injected --> 
+    <script type="text/javascript" src="js/chunk-vendors.ebe2453d.js"></script><script type="text/javascript" src="js/app.9d4140fa.js"></script></body> 
+  </html>
+  
+  - htmlparser.js:240 new HTMLParser
+    [EKB]/[html-minifier]/src/htmlparser.js:240:13
+  
+  - htmlminifier.js:966 minify
+    [EKB]/[html-minifier]/src/htmlminifier.js:966:3
+  
+  - htmlminifier.js:1326 exports.minify
+    [EKB]/[html-minifier]/src/htmlminifier.js:1326:16
+  
+  - index.js:316 Promise.resolve.then.then.html
+    [EKB]/[html-webpack-plugin]/index.js:316:18
+  
+</pre>

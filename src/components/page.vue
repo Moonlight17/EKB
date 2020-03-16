@@ -13,7 +13,7 @@
 					<div class="info_block" id="info_block">
 						<div id="base">	
 							<div class="header-right container-fluid">
-								<p class="phones call_phone_1 row"><span class="col-lg-6 col-md-12 col-sm-12 col-xs-12" id="call_phone"><a href="tel:+7 (982) 633-89-87"> +7 (982) 633-89-87</a></span><span class="col-lg-6 col-md-12 col-sm-12 col-xs-12" id="call_phone" style="margin-right:0;"><a href="tel:+7 (343) 286-38-42">+7 (343) 286-38-42</a></span></p>
+								<p class="phones call_phone_1 row"><span class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12" id="call_phone"><a href="tel:+7 (982) 633-89-87"> +7 (982) 633-89-87,</a></span><span class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12" id="call_phone" style="margin-right:0;"><a href="tel:+7 (343) 286-38-42">+7 (343) 286-38-42</a></span></p>
 								<p class="address"></p>
 								<p class="mailtop">
 									<a id="mail_left" align="left" target="_blank" href="https://www.eldvigspb.com/">www.eldvigspb.com</a>
@@ -38,7 +38,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div>вцфывфццвфывфц
 		<div id="content_main">
 			<img id="main" src="./img/main.png" alt srcset />
 		</div>
@@ -57,7 +57,7 @@
 								<div class="text">
 									<div class="cont" style="height: 52px;">
 										<div class="title" style="height: 22px;">
-											<span id="name">АВРМ-132 (15КВт)</span>
+											<span id="name">АВРМ-132 (15кВт)</span>
 										</div>
 									</div>
 								</div>
@@ -73,7 +73,7 @@
 								<div class="text">
 									<div class="cont" style="height: 52px;">
 										<div class="title" style="height: 22px;">
-											<span id="name">АВРМ-160 (25КВт)</span>
+											<span id="name">АВРМ-160 (25кВт)</span>
 										</div>
 									</div>
 								</div>
@@ -89,7 +89,7 @@
 								<div class="text">
 									<div class="cont" style="height: 52px;">
 										<div class="title" style="height: 22px;">
-											<span id="name">АВРМ-200 (50КВт)</span>
+											<span id="name">АВРМ-200 (50кВт)</span>
 										</div>
 									</div>
 								</div>
@@ -105,7 +105,7 @@
 								<div class="text">
 									<div class="cont" style="height: 52px;">
 										<div class="title" style="height: 22px;">
-											<span id="name">АВРМ-280 (110КВт)</span>
+											<span id="name">АВРМ-280 (110кВт)</span>
 										</div>
 									</div>
 								</div>
@@ -121,7 +121,7 @@
 								<div class="text">
 									<div class="cont" style="height: 52px;">
 										<div class="title" style="height: 22px;">
-											<span id="name">АВРМ-280 (160КВт)</span>
+											<span id="name">АВРМ-280 (160кВт)</span>
 										</div>
 									</div>
 								</div>
@@ -168,7 +168,7 @@
 			<div class="row">
 				<div class="col-md-3 col-sm-3 col-xs-12 char">
 					<img src="./img/132.png"/>
-					<h6 class="name">АВРМ-132 (15КВт)</h6>
+					<h6 class="name">АВРМ-132 (15кВт)</h6>
 					<a class="chertez_href" :href="`${publicPath}/static/Сертификат соответствия.pdf`" download>
 						<div id="sertif">
 							<span>Сертификат</span>
@@ -267,7 +267,7 @@
 			<div class="row">
 				<div class="col-md-3 col-sm-3 col-xs-12 char">
 					<img src="./img/160.png"/>
-					<h6 class="name">АВРМ-160 (25КВт)</h6>
+					<h6 class="name">АВРМ-160 (25кВт)</h6>
 					<a class="chertez_href" :href="`${publicPath}/static/Сертификат соответствия.pdf`" download>
 						<div id="sertif">
 							<span>Сертификат</span>
@@ -366,7 +366,7 @@
 			<div class="row">
 				<div class="col-md-3 col-sm-3 col-xs-12 char">
 					<img src="./img/200.png"/>
-					<h6 class="name">АВРМ-200 (50КВт)</h6>
+					<h6 class="name">АВРМ-200 (50кВт)</h6>
 					<a class="chertez_href" :href="`${publicPath}/static/Сертификат соответствия.pdf`" download>
 						<div id="sertif">
 							<span>Сертификат</span>
@@ -465,7 +465,7 @@
 			<div class="row">
 				<div class="col-md-3 col-sm-3 col-xs-12 char">
 					<img src="./img/280(110).png"/>
-          			<h6 class="name">АВРМ-280 (110кВ)</h6>
+          			<h6 class="name">АВРМ-280 (110кВт)</h6>
 					<a class="chertez_href" :href="`${publicPath}/static/Сертификат соответствия.pdf`" download>
 						<div id="sertif">
 							<span>Сертификат</span>
@@ -564,7 +564,7 @@
 			<div class="row">
 				<div class="col-md-3 col-sm-3 col-xs-12 char">
 					<img src="./img/280(160).png"/>
-          			<h6 class="name">АВРМ-280 (160кВ)</h6>
+          			<h6 class="name">АВРМ-280 (160кВт)</h6>
 					<a class="chertez_href" :href="`${publicPath}/static/Сертификат соответствия.pdf`" download>
 						<div id="sertif">
 							<span>Сертификат</span>
@@ -672,8 +672,8 @@
 					<img class="paper_img" :src="`${publicPath}/static/Doc5.png`">
 					<img class="paper_img" :src="`${publicPath}/static/Сертификат дистрибьютора  ЭнергоПром (2).png`">
 					<img class="paper_img" :src="`${publicPath}/static/АШС.png`">
-					<img class="paper_img" :src="`${publicPath}/static/Глазовский завод.png`">
-					<img class="paper_img" :src="`${publicPath}/static/Горный цех.png`">
+					<img class="paper_img" :src="`${publicPath}/static/Глазовский завод.png`">
+					<img class="paper_img" :src="`${publicPath}/static/Горный цех.png`">
 				</div>
 			</div>
 		</div>
@@ -732,12 +732,12 @@ div.info_block{
 div.info_block .header-right .phones {
     position: relative;
     font-weight: 800;
-    font-size: 1.2em;
+    /* font-size: 1.2em; */
     margin-bottom: 10px;
     text-align: left;
     width: 53%;
     margin: 0 auto;
-    min-width: 13em;
+    min-width: 26em;
 }
 
 div.info_block .phones.call_phone_1 span#call_phone{
@@ -886,6 +886,10 @@ div#content_main img#main {
 #char img {
 	margin: 0 auto;
 	width: 90%;
+	transition-duration: 0.3s;
+}
+#char img:hover{
+	transform: scale(1.7);
 }
 #char .props_table .char_name span,
 #char .props_table .char_value span {
@@ -951,7 +955,7 @@ h1.title {
 	position: absolute;
 	right: 13%;
 	top: 0;
-	padding: 15px 35px;
+	padding: 5px 10px;
 	margin: 0 auto;
 	border: 2px solid black;
     text-align: center;
@@ -961,14 +965,16 @@ h1.title {
 }
 .home #chertiz:hover{
 	border: 2px solid #025e7c;
-	color: #025e7c;
+	color: #fff;
+	background-color: rgba(2, 94, 124, 0.8);
 }
 .char #sertif span{
 	display: block;
 }
 .char #sertif{
-	width: 51%;
-	padding: 15px 35px;
+    width: 75%;
+    min-width: 6em;
+    max-width: 9em;
 	margin: 0 auto;
 	border: 2px solid black;
     text-align: center;
@@ -978,7 +984,8 @@ h1.title {
 }
 .char #sertif:hover{
 	border: 2px solid #025e7c;
-	color: #025e7c;
+	color: #fff;
+	background-color: rgba(2, 94, 124, 0.8);
 }
 .home #chertiz .modif{
 	/* display: inline; */
@@ -1014,7 +1021,7 @@ h1.title {
 	transition-duration: 0.5s;
 }
 #diploma .paper img.paper_img:hover{
-	transform: scale(3);
+	transform: scale(2.3);
 	width: 20%;
 	margin: 0 auto;	
 }
@@ -1027,6 +1034,7 @@ h1.title {
 .cursor:hover{
 	cursor: pointer;
 	border: 1px solid rgba(2, 94, 124,1);
+	transform: scale(1.4)
 }
 /* #diploma .paper .paper_iframe body{
 	-ms-zoom: 2;
